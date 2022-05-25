@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Todo from './component/Todo';
+import InputRead from './component/InputRead';
 
 function App() {
   return (
-    <Todo/>
+    <div className="App">
+      <InputRead/>
+    </div>
   );
 }
 
