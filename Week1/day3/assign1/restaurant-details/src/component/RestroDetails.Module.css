@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Noto+Sans+JP:wght@100&family=Nunito:wght@300&family=Romanesco&display=swap');
+.container{
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    /* background-color: #ffa500; */
+    font-style: italic;
+    font-weight: bolder;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.button-box{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+
+}
+
+img{
+    width: 80px;
+    /* backface-visibility: hidden; */
+    background-color: #ffa500;
+}
+h1{
+    width: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
